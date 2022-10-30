@@ -1,6 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import calculator from '../../assets/calculator-image.png'
+import yelp from '../../assets/yelp-image.png'
 
 const data = [
   {
@@ -10,13 +11,13 @@ const data = [
     github: 'https://github.com/rita-lu/Calculator',
     demo: 'https://rita-lu.github.io/Calculator/'
   },
-  // {
-  //   id: 2,
-  //   image: IMG1,
-  //   title: 'project 1',
-  //   github: 'https://github.com',
-  //   demo: '#'
-  // },
+  {
+    id: 2,
+    image: yelp,
+    title: 'Yelp Clone',
+    github: 'https://github.com/rita-lu/YelpApp',
+    demo: 'https://rita-lu.github.io/YelpApp/'
+  },
   // {
   //   id: 3,
   //   image: IMG1,
