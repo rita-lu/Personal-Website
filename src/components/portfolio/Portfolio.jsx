@@ -1,50 +1,50 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import calculator from '../../assets/calculator-image.png'
 
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: 'project 1',
-    github: 'https://github.com',
-    demo: '#'
+    image: calculator,
+    title: 'Calculator App',
+    github: 'https://github.com/rita-lu/Calculator',
+    demo: 'https://rita-lu.github.io/Calculator/'
   },
-  {
-    id: 2,
-    image: IMG1,
-    title: 'project 1',
-    github: 'https://github.com',
-    demo: '#'
-  },
-  {
-    id: 3,
-    image: IMG1,
-    title: 'project 1',
-    github: 'https://github.com',
-    demo: '#'
-  },
-  {
-    id: 4,
-    image: IMG1,
-    title: 'project 1',
-    github: 'https://github.com',
-    demo: '#'
-  },
-  {
-    id: 5,
-    image: IMG1,
-    title: 'project 1',
-    github: 'https://github.com',
-    demo: '#'
-  },
-  {
-    id: 6,
-    image: IMG1,
-    title: 'project 1',
-    github: 'https://github.com',
-    demo: '#'
-  }
+  // {
+  //   id: 2,
+  //   image: IMG1,
+  //   title: 'project 1',
+  //   github: 'https://github.com',
+  //   demo: '#'
+  // },
+  // {
+  //   id: 3,
+  //   image: IMG1,
+  //   title: 'project 1',
+  //   github: 'https://github.com',
+  //   demo: '#'
+  // },
+  // {
+  //   id: 4,
+  //   image: IMG1,
+  //   title: 'project 1',
+  //   github: 'https://github.com',
+  //   demo: '#'
+  // },
+  // {
+  //   id: 5,
+  //   image: IMG1,
+  //   title: 'project 1',
+  //   github: 'https://github.com',
+  //   demo: '#'
+  // },
+  // {
+  //   id: 6,
+  //   image: IMG1,
+  //   title: 'project 1',
+  //   github: 'https://github.com',
+  //   demo: '#'
+  // }
 ]
 
 const Portfolio = () => {
